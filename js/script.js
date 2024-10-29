@@ -45,11 +45,13 @@ function loadGeoJSON(url) {
             L.geoJSON(data, {
                 onEachFeature: function (feature, layer) {
                     layer.bindPopup(feature.properties.name || "Water Resource");
+                    layer.on('click', function() {
+                        const coords = layer.getLatLng();
+                        onResourceClick(coords.lat, coords.lng); // Fetch weather data
+                    });
                 }
             }).addTo(map);
         })
         .catch(error => console.error('Error loading GeoJSON data:', error));
 }
 
-// Initialize with default resource
-loadWaterData('waterQuality');
