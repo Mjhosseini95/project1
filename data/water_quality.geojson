@@ -1,0 +1,31 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Water Quality Monitoring Station 1",
+                "quality": "Good",
+                "parameter": "pH",
+                "value": 7.2
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4194, 37.7749]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Water Quality Monitoring Station 2",
+                "quality": "Moderate",
+                "parameter": "Nitrate",
+                "value": 5.6
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4192, 37.7750]
+            }
+        }
+    ]
+}

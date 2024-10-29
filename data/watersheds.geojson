@@ -1,0 +1,21 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Watershed Area 1",
+                "description": "Main watershed feeding into the river."
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-122.4294, 37.7849],
+                    [-122.4290, 37.7850],
+                    [-122.4280, 37.7845],
+                    [-122.4294, 37.7849]
+                ]]
+            }
+        }
+    ]
+}

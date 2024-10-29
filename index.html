@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Water Resource Management WebGIS</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div id="map"></div>
+    <div id="controls">
+        <h3>Water Resource Management</h3>
+        <label for="resource-select">Select Resource:</label>
+        <select id="resource-select">
+            <option value="waterQuality">Water Quality</option>
+            <option value="usage">Water Usage</option>
+            <option value="watersheds">Watersheds</option>
+        </select>
+        <button id="analyze-button">Analyze</button>
+    </div>
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="js/waterData.js"></script>
+    <script src="js/analysis.js"></script>
+    <script src="js/script.js"></script>
+</body>
+</html>

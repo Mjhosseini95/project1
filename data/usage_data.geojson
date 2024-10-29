@@ -1,0 +1,22 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Residential Area",
+                "usage": "High",
+                "volume": 5000
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-122.4194, 37.7749],
+                    [-122.4190, 37.7750],
+                    [-122.4180, 37.7745],
+                    [-122.4194, 37.7749]
+                ]]
+            }
+        }
+    ]
+}
