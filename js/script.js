@@ -34,6 +34,9 @@ function loadWaterData(resource) {
         case 'watersheds':
             loadGeoJSON('data/watersheds.geojson');
             break;
+        case 'weatherStations':
+            loadGeoJSON('data/weather_stations.geojson'); // New case for weather stations
+            break;
     }
 }
 

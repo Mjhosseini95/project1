@@ -1,0 +1,41 @@
+{
+    "type": "FeatureCollection",
+    "features": [
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Weather Station 1",
+                "type": "Meteorological",
+                "elevation": 10
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4194, 37.7749]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Weather Station 2",
+                "type": "Meteorological",
+                "elevation": 15
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4250, 37.7800]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Weather Station 3",
+                "type": "Meteorological",
+                "elevation": 12
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4300, 37.7850]
+            }
+        }
+    ]
+}

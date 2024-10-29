@@ -26,6 +26,32 @@
                 "type": "Point",
                 "coordinates": [-122.4192, 37.7750]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Water Quality Monitoring Station 3",
+                "quality": "Poor",
+                "parameter": "E. coli",
+                "value": 150
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4150, 37.7700]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Water Quality Monitoring Station 4",
+                "quality": "Good",
+                "parameter": "Dissolved Oxygen",
+                "value": 8.5
+            },
+            "geometry": {
+                "type": "Point",
+                "coordinates": [-122.4300, 37.7850]
+            }
         }
     ]
 }

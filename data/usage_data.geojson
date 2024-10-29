@@ -4,7 +4,7 @@
         {
             "type": "Feature",
             "properties": {
-                "name": "Residential Area",
+                "name": "Residential Area 1",
                 "usage": "High",
                 "volume": 5000
             },
@@ -15,6 +15,42 @@
                     [-122.4190, 37.7750],
                     [-122.4180, 37.7745],
                     [-122.4194, 37.7749]
+                ]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Agricultural Area 1",
+                "usage": "Very High",
+                "volume": 20000
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-122.4250, 37.7800],
+                    [-122.4200, 37.7800],
+                    [-122.4200, 37.7750],
+                    [-122.4250, 37.7750],
+                    [-122.4250, 37.7800]
+                ]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Industrial Area 1",
+                "usage": "Moderate",
+                "volume": 10000
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-122.4300, 37.7700],
+                    [-122.4310, 37.7700],
+                    [-122.4310, 37.7690],
+                    [-122.4300, 37.7690],
+                    [-122.4300, 37.7700]
                 ]]
             }
         }

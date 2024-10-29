@@ -16,6 +16,40 @@
                     [-122.4294, 37.7849]
                 ]]
             }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Watershed Area 2",
+                "description": "Secondary watershed draining into the bay."
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-122.4300, 37.7750],
+                    [-122.4320, 37.7750],
+                    [-122.4320, 37.7730],
+                    [-122.4300, 37.7730],
+                    [-122.4300, 37.7750]
+                ]]
+            }
+        },
+        {
+            "type": "Feature",
+            "properties": {
+                "name": "Watershed Area 3",
+                "description": "Important ecological area for wildlife."
+            },
+            "geometry": {
+                "type": "Polygon",
+                "coordinates": [[
+                    [-122.4450, 37.7850],
+                    [-122.4450, 37.7800],
+                    [-122.4400, 37.7800],
+                    [-122.4400, 37.7850],
+                    [-122.4450, 37.7850]
+                ]]
+            }
         }
     ]
 }
